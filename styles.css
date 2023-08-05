@@ -1,0 +1,19 @@
+.car-container {
+    height: 87px;
+    width: 210px;
+    background-image: url("./car.png");
+    animation: play 0.8s steps(4) infinite;
+}
+
+@keyframes play {
+    from {
+        background-position: 0px 0px;
+    }
+    to {
+        background-position: -840px 0px;
+    }
+}
+
+
+
+  
